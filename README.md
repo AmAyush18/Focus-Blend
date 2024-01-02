@@ -1,8 +1,8 @@
-# FocusBlend
+# Serene
 
 ## Overview
 
-**FocusBlend** is a web app designed to enhance concentration and productivity by providing customizable ambient soundscapes. Create your ideal audio environment with a blend of soothing sounds such as rain, train, forest, and air. Tailor the mix to your preferences and set individual volume controls for a personalized focus experience.
+**Serene** is a web app designed to enhance concentration and productivity by providing customizable ambient soundscapes. Create your ideal audio environment with a blend of soothing sounds such as rain, train, forest, and air. Tailor the mix to your preferences and set individual volume controls for a personalized focus experience.
 
 ## Features
 
@@ -16,4 +16,4 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AmAyush18/Focus-Blend.git
+   git clone https://github.com/AmAyush18/Serene.git

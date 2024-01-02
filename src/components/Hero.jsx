@@ -10,7 +10,7 @@ function Hero() {
             <h1 className='text-[40px] font-bold text-center text-[#283618] w-[90%] m-auto'> Unleash the power of focus with {" "}<span className='text-[#BC6C25]'>Serene</span>, where <span className='text-[#BC6C25]'>tranquility</span>  meets <span className='text-[#BC6C25]'>productivity</span>  in a symphony of ambient sounds</h1>
         </div>
         <div className="w-[40%]">
-            <img src={hero} alt=" " className='w-[70vw] h-[70%] pt-2' />
+            <img src={hero} alt=" " className='w-[440px] h-[440px] pt-2' />
         </div>
     </div>
   )

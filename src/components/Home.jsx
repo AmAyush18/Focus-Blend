@@ -4,7 +4,7 @@ import MelodyCard from "./MelodyCard"
 
 function Home() {
 
-  const heading = `"Your Sound, Your Space: Use Seremy to curate your perfect work environment"`
+  const heading = `"Your Sound, Your Space: Use Serene to curate your perfect work environment"`
 
   return (
     <div className='w-[100%] bg-[#FEFAE0] pb-10 min-h-screen'>

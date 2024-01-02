@@ -47,10 +47,10 @@ function About() {
 
       <div className="my-8">
         <h3 className="text-xl font-bold mb-4">Serene is Open Source:</h3>
-        <p className="text-gray-700 leading-loose">
+        <p className="text-[#283618] leading-loose">
           Serene is an open-source project, built with collaboration in mind. Join our community of developers, contribute to the codebase, and help shape the future of Serene. We believe in the power of collective innovation and welcome contributors from all backgrounds.
         </p>
-        <p className="text-gray-700 leading-loose">
+        <p className="text-[#283618] leading-loose">
           Check out our GitHub repository at <Link to="https://github.com/AmAyush18/Serene" target="_blank" className="text-[#DDA15E] font-semibold">https://github.com/AmAyush18/Serene</Link>.
         </p>
       </div>

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='w-[100%]'>
+      Home
+    </div>
   )
 }
 

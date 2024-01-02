@@ -7,3 +7,38 @@
         font-family: 'Roboto Mono', monospace;
     }
   }
+
+
+/* Add this to your CSS stylesheet */
+.volume-slider {
+    width: 75px; /* Make the range input fill its container */
+    -webkit-appearance: none; /* Remove default styles on WebKit browsers */
+    appearance: none; /* Remove default styles on other browsers */
+  
+    height: 6px; /* Set the height of the slider */
+    border-radius: 3px; /* Add rounded corners */
+  
+    background: #DDA15E; /* Set a background color */
+    outline: none; /* Remove default focus styles */
+  
+    /* Style the thumb (the handle) */
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none; /* Remove default styles on WebKit browsers */
+      appearance: none; /* Remove default styles on other browsers */
+      width: 11px; /* Set the width of the thumb */
+      height: 11px; /* Set the height of the thumb */
+      background: #606C38; /* Set the color of the thumb */
+      border-radius: 50%; /* Create a circular thumb */
+      cursor: pointer; /* Add a cursor on hover */
+      margin-top: -2px;
+    }
+  
+    /* Style the track (the bar) */
+    &::-webkit-slider-runnable-track {
+      width: 75px; /* Set the width of the track */
+      height: 6px; /* Set the height of the track */
+      background: #DDA15E; /* Set the color of the track */
+      border-radius: 5px; /* Add rounded corners */
+    }
+}
+  

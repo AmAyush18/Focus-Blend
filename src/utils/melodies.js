@@ -8,37 +8,37 @@ import {
 } from "./icons";
 
 import {
-    bonfire,
-    forest,
-    rain,
-    seaside
-    thunder,
-    train,
+    bonfire_sound,
+    forest_sound,
+    rain_sound,
+    seaside_sound,
+    thunder_sound,
+    train_sound
 } from './sounds';
 
 export const melodies = [
     {
         image: bonfire,
-        sound: bonfire
+        sound: bonfire_sound
     },
     {
         image: forest,
-        sound: forest
+        sound: forest_sound
     },
     {
         image: rain,
-        sound: rain
+        sound: rain_sound
     },
     {
         image: seaside,
-        sound: seaside
+        sound: seaside_sound
     },
     {
         image: thunder,
-        sound: thunder
+        sound: thunder_sound
     },
     {
         image: train,
-        sound: train
+        sound: train_sound
     },
 ]

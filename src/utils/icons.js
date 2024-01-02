@@ -10,6 +10,6 @@ export {
     forest,
     rain,
     seaside,
-    thunder
+    thunder,
     train,
 }

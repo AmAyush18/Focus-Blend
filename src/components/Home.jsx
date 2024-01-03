@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className='w-[100%] bg-[#FEFAE0] pb-10 min-h-screen'>
       <Hero />
-      <h1 className="text-[26px] w-[80%] m-auto font-semibold text-center">{heading}</h1>
+      <h1 className="text-[20px] md:text-[26px] w-[80%] m-auto font-semibold text-center">{heading}</h1>
       <div className="w-[90%] m-auto pt-16 flex items-center justify-center gap-4 flex-wrap">
         {
           melodies.map((melody, index) => (

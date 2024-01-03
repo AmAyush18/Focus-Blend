@@ -6,7 +6,7 @@ import buymeacoffee_button from '../assets/bmc-button.png';
 function Donate() {
   return (
     <div className="w-full bg-[#FEFAE0]">
-      <div className="container w-[70%] mx-auto !pt-8 p-4">
+      <div className="container w-[90%] md:w-[70%] mx-auto !pt-8 p-4">
         <h2 className="text-2xl font-bold mb-4 text-center">Support Serene</h2>
         
         <p className="text-gray-700 leading-loose mb-4 text-center">
@@ -20,7 +20,7 @@ function Donate() {
         </div>
         
         <div className="flex items-center justify-center mt-5">
-          <img src={buymeacoffee} alt="" className='w-[420px] h-[420px]' />
+          <img src={buymeacoffee} alt="" className='w-[360px] h-[360px] md:w-[420px] md:h-[420px]' />
         </div>
       </div>
     </div>

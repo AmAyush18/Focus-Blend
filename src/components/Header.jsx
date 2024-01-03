@@ -25,7 +25,7 @@ function Header() {
                 <img src={logo} alt="" className='w-[24px] h-[24px]'/>
                 <h1 className='text-xl md:text-2xl font-bold text-[#FEFAE0]'>Serene</h1>
             </Link>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center'>
                 {
                     navOptions.map((nav) => (
                         <NavLink key={nav.url} to={`${nav.url}`} className={({isActive}) => `text-sm md:text-lg ${isActive ? 'text-[#DDA15E]' : 'text-[#FEFAE0]' }`}>

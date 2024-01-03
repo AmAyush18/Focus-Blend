@@ -52,7 +52,7 @@ function About() {
             Serene is an open-source project, built with collaboration in mind. Join our community of developers, contribute to the codebase, and help shape the future of Serene. We believe in the power of collective innovation and welcome contributors from all backgrounds.
           </p>
           <p className="text-[#283618] leading-loose">
-            Check out our GitHub repository at <Link to="https://github.com/AmAyush18/Serene" target="_blank" className="text-[#DDA15E] font-semibold">https://github.com/AmAyush18/Serene</Link>.
+            Check out our GitHub repository at: <Link to="https://github.com/AmAyush18/Serene" target="_blank" className="text-[#DDA15E] font-semibold">github.com/AmAyush18/Serene</Link>.
           </p>
         </div>
 

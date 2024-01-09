@@ -1,23 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Layout from './Layout'
 import { About, Donate, Home } from './components'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
-      <Route path='about' element={<About />} />
-      <Route path='donate' element={<Donate />} />
-    </Route>
+    
   )
 )
 
+const Root = () => (
+  <Router>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route path='' element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='donate' element={<Donate />} />
+      </Route>
+    </Routes>
+  </Router>
+);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+  <Root />
 )

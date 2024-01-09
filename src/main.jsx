@@ -6,12 +6,6 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout'
 import { About, Donate, Home } from './components'
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    
-  )
-)
-
 const Root = () => (
   <Router>
     <Routes>
